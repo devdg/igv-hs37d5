@@ -22,3 +22,12 @@ tabix -p bed snp151_hs37d5.bed.gz
 ```
 
 Ensure you have all the files from here in the same directory. Then load the JSON in IGV using "Genomes"->"Load Genome from file..."
+
+Included in this package is ```rsid_to_hs37d5.py```
+
+To use:
+```
+python3 rsid_to_hs37d5.py <rsID>
+
+python3 rsid_to_hs37d5.py rs333
+```
