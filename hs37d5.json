@@ -1,0 +1,30 @@
+{
+  "id": "hs37d5",
+  "name": "Human (GRCh37/hs37d5)",
+  "fastaURL": "hs37d5.fa",
+  "indexURL": "hs37d5.fa.fai",
+  "cytobandURL": "cytoBand_hs37d5.txt",
+  "aliasURL": "https://s3.amazonaws.com/igv.org.genomes/hg19/hg19_alias.tab",
+  "tracks": [
+    {
+      "name": "Refseq Genes",
+      "format": "refgene",
+      "id": "hg19_genes",
+      "url": "https://hgdownload.soe.ucsc.edu/goldenPath/hg19/database/ncbiRefSeq.txt.gz",
+      "indexed": false,
+      "removable": false,
+      "order": 1000000,
+      "infoURL": "https://www.ncbi.nlm.nih.gov/gene/?term=$$"
+    },
+    {
+      "name": "dbSNP b151 (UCSC→BED6)",
+      "type": "annotation",
+      "format": "bed",
+      "url": "snp151_hs37d5.bed.gz",
+      "indexURL": "snp151_hs37d5.bed.gz.tbi",
+      "infoURL": "https://www.ncbi.nlm.nih.gov/snp/$$"
+    }
+  ],
+  "chromosomeOrder": "1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, X, Y, MT"
+
+}
